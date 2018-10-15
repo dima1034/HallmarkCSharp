@@ -1,0 +1,10 @@
+# file: ~/.gitignore_global
+.DS_Store
+.idea
+
+*.suo
+*.user
+_ReSharper.*
+bin
+obj
+packages
