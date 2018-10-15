@@ -2,7 +2,7 @@
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace csharp_getting_started
+namespace HallmarkCSharp
 {
     public class AsyncAwaitCS122 : IGettingStartedExample
     {

@@ -7,7 +7,7 @@ using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.Azure.WebJobs.Host;
 using Microsoft.WindowsAzure.Storage.Queue.Protocol;
 
-namespace Company.FunctionApp
+namespace AzureFunction
 {
     public static class AddName
     {

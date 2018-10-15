@@ -1,4 +1,4 @@
-namespace csharp_getting_started
+namespace HallmarkCSharp
 {
     internal class InternalClass
     {        

@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "csharp-getting-started", "csharp-getting-started\csharp-getting-started.csproj", "{D95189A9-F040-4A56-A830-66234BED4222}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HallmarkCSharp", "HallmarkCSharp\HallmarkCSharp.csproj", "{D95189A9-F040-4A56-A830-66234BED4222}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cfullframework", "cfullframework", "{965F3DAC-ABB7-4A67-8AB9-7EC045868313}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fullframework", "Fullframework", "{965F3DAC-ABB7-4A67-8AB9-7EC045868313}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "auth", "auth", "{7EAE2072-BF5A-4AC8-B31F-B6B94BB6B368}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Auth", "Auth", "{7EAE2072-BF5A-4AC8-B31F-B6B94BB6B368}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuth", "auth\CookieAuth\CookieAuth.csproj", "{DBBC2BE5-A13B-446C-998E-97A24C6CC8B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuth", "Auth\CookieAuth\CookieAuth.csproj", "{DBBC2BE5-A13B-446C-998E-97A24C6CC8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAuth", "auth\LocalAuth\LocalAuth.csproj", "{2DCC95E0-5C13-4C96-814B-20D623704086}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalAuth", "Auth\LocalAuth\LocalAuth.csproj", "{2DCC95E0-5C13-4C96-814B-20D623704086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_cs177", "Test_cs177\Test_cs177.csproj", "{D348359A-8613-48D7-B7FC-EDD2D15961D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCS177", "TestCS177\TestCS177.csproj", "{D348359A-8613-48D7-B7FC-EDD2D15961D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Company.FunctionApp", "Company.FunctionApp\Company.FunctionApp.csproj", "{0EDE7CBF-E8B4-4AFB-832F-6DA6382609C4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunction", "AzureFunction\AzureFunction.csproj", "{0EDE7CBF-E8B4-4AFB-832F-6DA6382609C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

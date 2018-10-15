@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\csharp-getting-started\csharp-getting-started.csproj" />
+      <ProjectReference Include="..\HallmarkCSharp\HallmarkCSharp.csproj" />
     </ItemGroup>
 
 </Project>

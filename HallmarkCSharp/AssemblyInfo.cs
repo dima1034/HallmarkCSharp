@@ -3,4 +3,4 @@ using System.Runtime.CompilerServices;
 
 [assembly: AssemblyCopyright("zzzzzzzzzzzz")]
 
-[assembly: InternalsVisibleTo("Test_cs177")]
+[assembly: InternalsVisibleTo("TestCS177")]

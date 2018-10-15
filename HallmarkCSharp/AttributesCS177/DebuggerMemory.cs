@@ -1,6 +1,6 @@
 using System;
 
-namespace csharp_getting_started
+namespace HallmarkCSharp
 {
     public class DebuggerMemoryAttribute
     {

@@ -1,7 +1,7 @@
 using System;
 using System.Diagnostics;
 
-namespace csharp_getting_started
+namespace HallmarkCSharp
 {
     /*
      * To use subject class correctly please use debugger in class which creates instance of Subject

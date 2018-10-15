@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharp_getting_started
+namespace HallmarkCSharp
 {
     /*
      * Lesson here - is how stack_trace may be differ for throw and throw(ex)
@@ -12,11 +12,7 @@ namespace csharp_getting_started
      * Since Throw does not reset the stack trace, you will get the information about the original exception. 
      * 
      */
-<<<<<<< HEAD:csharp-getting-started/ThrowVsThrowEx.cs
     public static class ThrowVsThrowEx
-=======
-    public class throw_vs_throwEx : IGettingStartedExample
->>>>>>> work items:csharp-getting-started/throw_vs_throwEx.cs
     {
         private static void DevideByZero(int i)
         {
@@ -25,7 +21,7 @@ namespace csharp_getting_started
             Console.WriteLine(k);
         }
 
-        public void Start()
+        public static void Start()
         {
             try
             {

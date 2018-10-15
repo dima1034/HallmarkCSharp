@@ -1,6 +1,6 @@
 using System;
 using Xunit;
-using csharp_getting_started;
+using HallmarkCSharp;
 
 namespace TestCS177
 {
