@@ -11,10 +11,18 @@ namespace HallmarkCSharp
     [DebuggerDisplay("ID = {SubjectId}, Description {SubjectDescription}")]
     public class Subject
     {
+        
+        [Custom("SubjectId property", ConsoleColor.Yellow)]
         public string SubjectId => new Random().Next().ToString();
 
         [DebuggerBrowsable(DebuggerBrowsableState.Never)]
         public string SubjectDescription =>
             "This object is created to describe any kind of object for testing purpose on attributes";
+
+        [Custom("GetSubjectId method", ConsoleColor.Yellow)]
+        void GetSubjectId()
+        {
+            
+        }
     }
 }

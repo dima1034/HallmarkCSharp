@@ -25,8 +25,8 @@ namespace HallmarkCSharp
             Console.WriteLine("thread " + Thread.CurrentThread.ManagedThreadId);
         }
         
-        /*The problem is that the method reads the value and suspends itself at the await,
-         and when the method resumes it assumes the value hasn’t changed.*/
+        /* The problem is that the method reads the value and suspends itself at the await,
+         and when the method resumes it assumes the value hasn’t changed. */
         async Task SharedResourcesProblem()
         {
             await UpdateValueAsync().ConfigureAwait(false);
@@ -37,5 +37,6 @@ namespace HallmarkCSharp
             await UpdateValueAsync().ConfigureAwait(false);
             await UpdateValueAsync().ConfigureAwait(false);
         }
+        // looks like no problem at all
     }
 }

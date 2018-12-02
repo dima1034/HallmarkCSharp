@@ -1,13 +1,25 @@
+using System;
+using System.Reflection;
+
 namespace HallmarkCSharp
 {
     public class AttributesCS177
     {
         public static void Start()
         {
-            Subject subject = new Subject();
+            /*using reflection for access attribute*/
 
+            //PropertyInfo propNameWhereAttributeApplied = typeof(Subject).GetProperty(nameof(Subject.SubjectId));
+            //CustomAttribute ca = (CustomAttribute) Attribute.GetCustomAttribute(propNameWhereAttributeApplied, typeof(CustomAttribute));
+            //var id = ca.Label + subject.SubjectId;
+
+            //Console.ForegroundColor = ca.Color;
+            //Console.WriteLine(id);
+            
+            Subject subject = new Subject();
             var desc = subject.SubjectDescription;
-            var id = subject.SubjectId;
+            
+            CustomAttribute.WriteEachMethodInClass(typeof(Subject));
         }
     }
 }
