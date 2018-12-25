@@ -1,0 +1,36 @@
+#addin nuget:?package=Cake.Figlet 
+///////////////////////////////////////////////////////////////////////////////
+// ARGUMENTS
+///////////////////////////////////////////////////////////////////////////////
+var target = Argument("target", "Default");
+var configuration = Argument("configuration", "Release");
+///////////////////////////////////////////////////////////////////////////////
+// SETUP / TEARDOWN
+///////////////////////////////////////////////////////////////////////////////
+Setup(CakeContext ctx =>
+{
+   // Executed BEFORE the first task.
+   Information("Running tasks...");
+});
+Teardown(CakeContext ctx =>
+{
+   // Executed AFTER the last task.
+   Information("Finished running tasks.");
+});
+///////////////////////////////////////////////////////////////////////////////
+// TASKS
+///////////////////////////////////////////////////////////////////////////////
+Task("Default")
+   .ContinueOnError() // Even if any errors occur, we continue
+   .WithCriteria(true)
+   .Does(() => {
+      Information(Figlet("Hello Cake!"));
+   })
+   .ReportError(exception => {
+      // Just error reporting
+   }) 
+   .OnError(exception => {
+      // Error handling
+   });
+
+RunTarget(target);
