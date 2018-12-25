@@ -9,10 +9,8 @@ namespace HallmarkCSharp
         {
             AttributesCS177.Start();
             // new AsyncAwaitCS122().Start();
-            /*
-            ThrowVsThrowEx.Start();
+            // ThrowVsThrowEx.Start();
             
-            */
             Console.ReadLine();
         }
     }
