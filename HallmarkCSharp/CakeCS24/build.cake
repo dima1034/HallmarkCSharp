@@ -7,12 +7,12 @@ var configuration = Argument("configuration", "Release");
 ///////////////////////////////////////////////////////////////////////////////
 // SETUP / TEARDOWN
 ///////////////////////////////////////////////////////////////////////////////
-Setup(CakeContext ctx =>
+Setup((ISetupContext ctx) =>
 {
    // Executed BEFORE the first task.
    Information("Running tasks...");
 });
-Teardown(CakeContext ctx =>
+Teardown((Cake.Core.ITeardownContext ctx) =>
 {
    // Executed AFTER the last task.
    Information("Finished running tasks.");
@@ -21,7 +21,7 @@ Teardown(CakeContext ctx =>
 // TASKS
 ///////////////////////////////////////////////////////////////////////////////
 Task("Default")
-   .ContinueOnError() // Even if any errors occur, we continue
+   // .ContinueOnError() // Even if any errors occur, we continue
    .WithCriteria(true)
    .Does(() => {
       Information(Figlet("Hello Cake!"));
